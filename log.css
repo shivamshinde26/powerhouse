@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#load{
+    background:#000 url('gym-unscreen.gif') center center/cover no-repeat;
+    background-size: 10%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+.hero {
+    height: 100%;
+    width: 100%;
+    background: url('./images/service.jpg');
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.form-box {
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background-color: rgb(255, 255, 255);
+    backdrop-filter: blur(5px);
+    padding: 5px;
+    overflow: hidden;
+}
+
+.button-box {
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+}
+
+.toggle-btn {
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0px;
+    color: rgb(51, 88, 88);
+    font-weight: bold;
+    outline: none;
+    position: relative;
+
+}
+
+#btn {
+    border-radius: 30px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    /* background: linear-gradient(to right, #ff105f, #ffad06); */
+    background: #E6DADA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3b7888, #E6DADA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3b7888, #E6DADA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+
+    transform: .5s;
+}
+.social{
+    margin: 30px;
+    text-align: center;
+}
+.social img{
+   width:30px ;
+   margin: auto 23px;
+   box-shadow: 0 0 20px 0 #7f7f7f3d;
+   cursor: pointer;
+}
+.input-group{
+    top: 180px;
+    position:absolute;
+    width: 280px;
+    transition: .5s;
+    color: black;
+    
+}
+.input-field{
+    color: black;
+    background-color: transparent;
+    outline: none;
+    width: 100%;
+    padding:10px 0px ;
+    margin: 5px 0px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+
+}
+.log-btn{
+ width: 85%;
+ padding: 10px 30px;
+ cursor: pointer;   
+ display: block;
+ /* background: linear-gradient(to right, #ff105f, #ffad06); */
+ background: #E6DADA;  /* fallback for old browsers */
+ background: -webkit-linear-gradient(to right, #3b7888, #E6DADA);  /* Chrome 10-25, Safari 5.1-6 */
+ background: linear-gradient(to right, #3b7888, #E6DADA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ 
+ margin: auto;
+ border: none;
+ outline: none;
+ border-radius: 30px;
+
+}
+.check-box{
+    margin: 30px 10px 30px 0;
+}
+span{
+    color: black;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+    /* color: linear-gradient(to right, #ff105f, #ffad06); */
+}
+#login{
+    left: 50px;
+    color: black;
+}
+#login::placeholder{
+    color: red;
+    opacity: 1;
+}
+#sign{
+    left: 450px;
+}
+.back{
+    color: #274046;
+    margin: 20px;
+    height: 30px;
+    width: 300px;    
+}
+.browse{
+    
+    color: whitesmoke;    
+    text-decoration: none;
+}
+.backbtn{
+    background-color: rgb(0, 115, 216);
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    width: 175px;
+    padding:10px ;
+}

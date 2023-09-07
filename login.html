@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Or SignUp</title>
+    <link rel="stylesheet" href="log.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+
+<body>
+
+    <div class="hero">
+        <div class="back">
+            <button class="backbtn"><a href="./index.html" class="browse">🡠 BACK TO BROWSE</a></button>
+        </div>
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+                <button type="button" class="toggle-btn" onclick="sign()">Sign Up</button>
+            </div>
+            <div class="social">
+                <img src="./images/g.png" alt="">
+                <img src="./images/twitter.png" alt="">
+                <img src="./images/facebook.png" alt="">
+            </div>
+            <form id="sign" class="input-group">
+                <input type="text" name="name" class="input-field" placeholder="User ID" required>
+                <input type="email" name="mail" class="input-field" placeholder="E-mail ID" required>
+                <input type="password" name="password" class="input-field" placeholder="Password" required>
+                <input type="checkbox" class="check-box"><span>I agree the terms & conditions</span>
+                <button type="button" class="log-btn">Sign Up</button>
+            </form>
+            <form id="login" class="input-group">
+                <input type="text" name="name" class="input-field" placeholder="User ID" required>
+                <input type="password" name="password" class="input-field" placeholder="Password" required>
+                <input type="checkbox" class="check-box"><span>Remember Me</span>
+                <button type="button" class="log-btn">Log In</button>
+            </form>
+
+        </div>
+    </div>
+    <script>
+        var x = document.getElementById("login");
+        var y = document.getElementById("sign");
+        var z = document.getElementById("btn");
+        function sign() {
+            x.style.left = "-400px";
+            y.style.left = "50px"
+            z.style.left = "110px"
+
+        }
+        function login() {
+            x.style.left = "50px";
+            y.style.left = "450px"
+            z.style.left = "0px"
+
+        }
+    </script>
+</body>
+
+</html>
